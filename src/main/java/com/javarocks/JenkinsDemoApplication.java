@@ -18,7 +18,7 @@ public class JenkinsDemoApplication {
 
 	@PostConstruct
 	public void init(){
-		log.info("Project Initiated");
+			log.info("Project Initiated");
 	}
 
 	public static void main(String[] args) {

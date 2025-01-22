@@ -15,6 +15,7 @@ class JenkinsDemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		log.info("Test case executing...");
+		log.info("Jenkins pipeline added...");
 		assertEquals(true, true);
 	}
 
